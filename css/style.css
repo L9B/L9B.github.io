@@ -52,6 +52,7 @@ hr {
 #hr2 {width: 130px}
 #hr3 {width: 200px; margin-bottom: 70px;}
 #hr4 {width: 100px}
+.hr6 {width: 200px; margin-bottom: 70px;}
 
 #logo, li, img, .button, .fa-bars {
 	transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
@@ -143,37 +144,6 @@ header nav ul li:hover {
 }
 
 #home img:hover {
-	opacity: 1;
-}
-
-
-/* HOME ******************************************************************************************************************/
-
-
-#home2 {
-	background: url(../media/pic1.jpg);
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#home2 h1 {
-	margin: 240px auto 0 auto;
-	font-size: 100px;
-}
-
-#home2 h2 {
-	margin: 0 auto 0 auto;
-	font-size: 25px;
-}
-
-#home2 img {
-	width: 50px;
-	margin-top: 150px;
-	opacity: 0.7;
-}
-
-#home2 img:hover {
 	opacity: 1;
 }
 
@@ -328,6 +298,56 @@ footer p {
 	.button {
 		width: 62%;
 	}
+}
+
+
+/* HOME2 ******************************************************************************************************************/
+
+
+#home2 {
+	background: url(../media/pic1.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#home2 h1 {
+	margin: 240px auto 0 auto;
+	font-size: 100px;
+}
+
+#home2 h2 {
+	margin: 0 auto 0 auto;
+	font-size: 25px;
+}
+
+#home2 img {
+	width: 50px;
+	margin-top: 150px;
+	opacity: 0.7;
+}
+
+#home2 img:hover {
+	opacity: 1;
+}
+
+
+/* CATAGORY2 ******************************************************************************************************************/
+
+
+#Category2 {
+	background: url(../media/pic2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#Category2 h3 {
+	color: #ffffff;
+}
+
+#Category2 hr {
+	background: #ffffff;
 }
 
 /* MOBILE */
