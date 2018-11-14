@@ -84,11 +84,10 @@ header {
 }
 
 #logo:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3)
 }
 
 #logo img {
@@ -349,6 +348,26 @@ footer p {
 #Category2 hr {
 	background: #ffffff;
 }
+
+
+/* CATAGORY2 ******************************************************************************************************************/
+
+
+#Category4 {
+	background: url(../media/pic3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#Category4 h3 {
+	color: #ffffff;
+}
+
+#Category4 hr {
+	background: #ffffff;
+}
+
 
 /* MOBILE */
 /* @media screen and (max-width: 480px) {
